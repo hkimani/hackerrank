@@ -1,11 +1,3 @@
-// class Node {
-//     constructor(id, weight, next) {
-//         this.id = id;
-//         this.weight = weight;
-//         this.next = next;
-//     }
-// }
-
 function initialize(n, c_lib, c_road, cities) {
 
     // If the cost of the road is greater than or equal to the cost of the library, build library in every city
