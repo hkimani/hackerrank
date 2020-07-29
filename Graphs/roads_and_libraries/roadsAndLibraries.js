@@ -68,6 +68,7 @@ function initialize(n, c_lib, c_road, cities) {
         }
     })
 
+    // For each route compute cost
     routes.forEach(route => {
         total_cost += (((route.size - 1) * c_road) + c_lib)
     });
