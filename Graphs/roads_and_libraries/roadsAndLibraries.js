@@ -9,9 +9,9 @@ function initialize(n, c_lib, c_road, cities) {
     let adjacencyList = new Map();
 
     // Add node
-    function addNode(airport) {
+    function addNode(city) {
         // Key value pairs
-        adjacencyList.set(airport, [])
+        adjacencyList.set(city, [])
     }
 
     // Add edge, undirected
