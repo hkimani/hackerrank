@@ -6,6 +6,7 @@
 - Constant time
 
 Worst case:
+
 - O (n)
 
 # Space complexity
