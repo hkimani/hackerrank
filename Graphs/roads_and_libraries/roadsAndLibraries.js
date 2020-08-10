@@ -20,11 +20,6 @@ function initialize(n, c_lib, c_road, cities) {
         adjacencyList.get(destination).push(origin)
     }
 
-    // BFS Breadth First Search
-    function bfs(start) {
-        const queue = [start]
-    }
-
     // ... best for finding the first route that exists (Going through the routes one by one)
     // DFS Depth First Search
     function dfs(start, visited, v_routes) {
